@@ -1,4 +1,4 @@
-### BEGIN INIT INFO
+### BEGIN INIT INFORMATION
 # Provides:          vault
 # Required-Start:    $local_fs $remote_fs
 # Required-Stop:     $local_fs $remote_fs
