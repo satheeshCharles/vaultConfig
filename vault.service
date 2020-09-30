@@ -8,12 +8,13 @@
 # Description:       Vault secret management tool
 # path:/etc/systemd/system/vault.service
 
-### END INIT INFO
+### END INIT INFORMATION
 
 [Unit]
 Description=Vault secret management tool
 Requires=network-online.target
 After=network-online.target
+
 
 [Service]
 User=vault
